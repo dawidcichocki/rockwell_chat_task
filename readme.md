@@ -1,5 +1,16 @@
 # MultiPDF Chat App
 
+## How to run
+1. Populate env.example with openai api key
+2. Run command: docker build . -t streamlit_chat_app 
+3. Run command: docker run -p 8501:8501 streamlit_chat_app
+4. The app will be accessible in browser under localhost:8501
+
+## Notes:
+1. Used source document with highlighted text was meant to be displayable but was omitted in the end due to time restrictions
+2. Due to time restrictions the unit tests were omitted 
+
+## Original README below
 > You can find the tutorial for this project on [YouTube](https://youtu.be/dXxQ0LR-3Hg).
 
 ## Introduction
